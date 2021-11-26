@@ -42,11 +42,11 @@ hier je focus (kies uit responsive óf surface plane)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 <p>Onze merken</p>
-<img src="Schermafbeelding 2021-11-17 om 14.48.04.png" width="375px" alt="omschrijving van de pagina">
+<img src="onzemerken.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 <p>Ons bedrijf</p>
-<img src="Schermafbeelding 2021-11-17 om 14.47.38.png" width="375px" alt="omschrijving van de pagina">
+<img src="onsbedrijf.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -58,10 +58,13 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="breakdown.bedrijf.header.png" width="375px" alt="breakdown bedrijf 1">
+<img src="breakdown.bedrijf.footer.png" width="375px" alt="breakdown bedrijf 2">
+<img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 1">
+<img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 2">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="breakdown.menu.png" width="375px" alt="breakdown menu">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -78,7 +81,13 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat goed gaat: ik lig goed op schema. Alle html heb ik geschreven en ik ben begonnen met de css. 
+Waar ik moeite mee heb: Een paar foto's willen niet laden op mijn pagina. Daarnaast heb ik ook veel moeite met de juiste grootte en de goede lettertype 
+te vinden voor de website.
+<img src="heinekennederland.png" width="375px" alt="hele scherm foto">
+<img src="html.index.png" width="375px" alt="html index">
+<img src="html.merken.png" width="375px" alt="html merken">
+<img src="css.png" width="375px" alt="css">
 
 
 ### Agenda voor meeting

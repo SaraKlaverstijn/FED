@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Playfair_Display";
+    font-weight: 525;
+    margin: .5em;
+    color: #205527;
+    padding: 0em 0em 1em;
+    background: white;
+    padding: 2em .7em 1em;
+    margin-top: -3em;
+    position: relative;
+}
+
+
+
+h2 {
+    font-family: "Playfair_Display";
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: .8em;
+}
+
+
+p {
+    line-height: 2em;
+    color: #666666;
+    margin: 5% 5% 5% 5% ;
+    font-size: .9em;
+    font-weight: normal; 
+    font-family: "Outfit";
+}
+
+a {
+    color: #205527;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: .75em;
+    padding-bottom:1em;
+    text-decoration: none; 
+    font-family: "Outfit";   
+}
+
+img {
+    width: 100%;
+}
+
+header img{
+    width: 50%;
+    margin: 1.5em;
+}
+
+.bedrijf section:nth-of-type(1) img{
+    height: 18em;
+    
+}
+
+.bedrijf section:nth-of-type(3) img {
+    width: 90%;
+    padding: 1em 1em 1em 1em;
+    
+}
+
+
+
+.bedrijf section:nth-of-type(3) article {
+    display: flex;
+    flex-direction: column;
+}
+
+/*De tekst op het groene gedeelte*/
+
+.bedrijf section:nth-of-type(4) article {
+    background-color: #205527;
+    padding: .5em 1em 2em 0em;
+}
+
+.bedrijf section:nth-of-type(4) article h2 {
+    color: white;
+    margin: 1.25em;
+}
+
+.bedrijf section:nth-of-type(4) article p {
+    color: white;
+    margin: 2em;
+
+}
+
+.bedrijf section:nth-of-type(4) article a {
+    color: white;
+    margin: 2em;
+    padding-bottom: 1em;
+}
+
+
+
+.bedrijf section:nth-of-type(5) img {
+    margin: 2em 0em 0em 0em;
+}
+
+
+
+.bedrijf main section:nth-of-type(1) p:nth-of-type(2){
+    font-size: 1.1em;
+}
+
+.bedrijf main section:nth-of-type(1) p:nth-of-type(3){
+    font-size: 1.1em;
+}
+
+.bedrijf main section:nth-of-type(1) p:nth-of-type(1) {
+font-size:1.4em;
+line-height:1.8em;
+color:#666666;
+margin-bottom:30px;
+}
+
+.bedrijf main section:nth-of-type(1) p:nth-of-type(1)::first-letter {
+font-size:3.5em;
+font-family:"HeinekenCurve";
+font-weight:600;
+display:inline-block;
+margin:25px 15px 0 0;
+float:left;
+color:#7ab800;
+}
+
+/* 
+
+.bedrijf main section:nth-of-type(1) p:nth-of-type(1)::first-letter{
+    color:#7ab800;
+    font-size: 3.5em;
+    font-family: "HeinekenCurve";
+    font-weight: 600;
+    float:left;
+    display:inline-block;
+    margin-bottom:
+} */
+
+
+
+.merken section:nth-of-type(1) img{
+    height: 18em;
+}
+
+.merken section:nth-of-type(2) article:nth-of-type(1) section {
+    background-color: #205527;
+    padding: .5em 1em 2em 0em;
+    
+}
+
+.merken section:nth-of-type(2) article h2 {
+    color: white;
+    margin: 1.25em;
+}
+
+.merken section:nth-of-type(2) article p {
+    color: white;
+    
+}
+
+.merken section:nth-of-type(2) article a {
+    color: white;
+    
+    padding-bottom: 1em;
+}
+
+.merken section:nth-of-type(2) article:nth-of-type(2) section {
+    background-color: #205527;
+    padding: .5em 1em 2em 0em;
+    margin: 10% 0% 0% 0%;
+}
+
+.merken section:nth-of-type(2) article:nth-of-type(2) img{
+    margin: 0% 0% 20% 0%;
+}
+
+.merken section:nth-of-type(1) p{
+    font-size:1.4em;
+    line-height:1.8em;
+    color:#666666;
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+
+

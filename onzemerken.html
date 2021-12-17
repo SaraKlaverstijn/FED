@@ -6,25 +6,34 @@
     <title>Onze merken</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body class="merken">
+<body class="merken" id="dark-mode">
     <header>
-        <img src="https://www.heinekennederland.nl/sites/theheinekencompany/files/default_images/heineken-logo.svg" alt="Logo" width="50%">
+        <section>
+            <img src="./images/logo.svg"  alt="Logo">
+        
+        <img src="./images/hamburgmenu.png" alt="Hamburg menu" id="burger">
+        
+        </section>
+        
         <nav>
+            <img src="./images/kruis1.png" alt="kruis" id="kruis">
+        
             <ul>
                 <li><a href= "index.html">Ons bedrijf</a></li>
-                <li>Onze merken</li>
-                <li>Circulair</li>
-                <li>Geniet met mate</li>
-                <li>Nieuws</li>
-                <li>Werken bij Heineken</li>
-                <li>Contact</li>
+                <li><a href= "#">Onze merken</a></li>
+                <li><a href= "#">Circulair</a></li>
+                <li><a href= "#">Geniet met mate</a></li>
+                <li><a href= "#">Nieuws</a></li>
+                <li><a href= "#">Werken bij Heineken</a></li>
+                <li><a href= "#">Contact</a></li>
             </ul>
+            <button id="dark">Dark mode</button>
         </nav>
     </header>
 
     <main>
         <section>
-            <img src="images/verschillendemerken.jpg" alt="onze merken" width="100%">
+            <img src="images/verschillendemerken.jpg" alt="onze merken" >
             <h1>Onze merken</h1>
             <p>HEINEKEN Nederland is trots brouwer en producent van een uniek portfolio merken. Bekende merken die onze klanten verder- en consumenten in Nederland samenbrengen. 
                 Succesvolle merken die bruggen bouwen en drempels wegnemen. Door momenten te verrijken, ervaringen te verdiepen en mensen te verbinden. Zo halen we samen het beste 
@@ -37,9 +46,12 @@
                     <h2>Onze biermerken</h2>
                     <p>Onze meesterbrouwers brouwen het bier waar heel Nederland van houdt. Dat ons samenbrengt. Laat genieten. Thuis. In de kroeg. Op het terras. Overal. Van elkaar. 
                         Van elke moment. Van Heineken®, Heineken 0.0 en Amstel tot Brand, Texels, Birra Moretti, Affligem, Desperados, Lagunitas en Sol.</p>
-                    <a href= "#">Ontdek meer over onze biermerken</a>
+                    <article class="pijltje">
+                        <a href= "#"><span>&rarr;</span>Ontdek meer over onze biermerken</a>
+                    </article>
+            
                 </section>
-                <img src="https://www.heinekennederland.nl/sites/theheineken-netherland/files/our-brands/onze-biermerken.jpg" alt="bier" width="100%">
+                <img src="./images/blikjesbier.jpg" alt="bier" >
             </article>
             <article>
                 <section>
@@ -47,15 +59,20 @@
                     <p>In de ciderie maken we onze zalige ciders. Van het pure sap van geperste appels. Dat ze, na het fermenteren, filteren voor die perfecte zuivere cidersmaak. 
                         Die verrast en verfrist. Van bitter en fris en van droog tot zoet. Om lekker van te genieten. Met wat ijs. Met elkaar. Verkrijgbaar onder onze merken Apple Bandit, 
                         Old Mout Cider en Stassen.</p>
-                        <a href= "#">Ontdek meer over onze cidermerken</a>
+                    <article class="pijltje">
+                        <a href= "#"><span>&rarr;</span>Ontdek meer over onze cidermerken</a>
+                    </article>
+        
                 </section>
-                <img src="https://www.heinekennederland.nl/sites/theheineken-netherland/files/Our-brands/cider.jpg" alt="cider" width="100%">
+                <img src="./images/apllebandits.jpg" alt="cider" >
             </article>
         </section>
 
     </main>
 
     <footer>
+         <!--Lijn 1-->
+        <hr>
         <section>
             <article>
                 <h3><span>Lost and found</span></h3>
@@ -72,22 +89,25 @@
                         <li></li>
                     </ul> 
             </article>
-
+            <!--Lijn 2-->
+            <hr class="lijn2">
             <article>
                 <h3><span>Stay refreshed</span></h3>
                 <ul>
                     <li>Sign-up for our new alerts</li>
                 </ul>
                 <section class="pijltje">
-                    <div>&rarr;</div>
+                    
+                        <a href= "#"><span>&rarr;</span>Subscribe</a>
+                    
                 </section>
-                <a href="#">Subscribe</a>
+                <img src="./images/illustratie.png" alt="illustratie heineken blikje"> 
             </article>
        
         </section>
         
 
     </footer>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>

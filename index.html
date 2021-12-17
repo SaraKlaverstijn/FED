@@ -6,26 +6,34 @@
     <title>Heineken Nederland</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body class="bedrijf">
+<body class="bedrijf" id="dark-mode">
     <header>
-        <img src="https://www.heinekennederland.nl/sites/theheinekencompany/files/default_images/heineken-logo.svg" alt="Logo">
+        <section>
+            <img src="./images/logo.svg"  alt="Logo">
+            <img src="./images/hamburgmenu.png" alt="Hamburg menu" id="burger">
+        </section>
+
+        <!--Navigatie-->
         <nav>
+            <img src="./images/kruis1.png" alt="kruis" id="kruis">
+        
             <ul>
-                <li>Ons bedrijf</li>
+                <li><a href= "#">Ons bedrijf</a></li>
                 <li><a href= "onzemerken.html">Onze merken</a></li>
-                <li>Circulair</li>
-                <li>Geniet met mate</li>
-                <li>Nieuws</li>
-                <li>Werken bij Heineken</li>
-                <li>Contact</li>
+                <li><a href= "#">Circulair</a></li>
+                <li><a href= "#">Geniet met mate</a></li>
+                <li><a href= "#">Nieuws</a></li>
+                <li><a href= "#">Werken bij Heineken</a></li>
+                <li><a href= "#">Contact</a></li>
+               
             </ul>
+            <button id="dark">Dark mode</button>
         </nav>
     </header>
 
-    <main >
+    <main>
         <section>
             <img src="images/heinekenmuur.jpg" alt="Start foto">
-
             <article>
                 <h1>Ons bedrijf</h1>
 
@@ -37,9 +45,30 @@
             </article>
         </section>
 
+<!--De cijfers met informatie-->
         <section>
             <article>
+            <section>
+                <p>85.000</p>
+                <p>collega's wereldwijd</p>
+            </section>
 
+            <section>
+                <p>4.000</p>
+                <p>werkzaam in Nederland</p>
+            </section>
+            </article>
+
+            <article>
+            <section>
+                <p>300</p>
+                <p>mondiale merken</p>
+            </section>
+            
+            <section>
+                <p>190</p>
+                <p>landen</p>
+            </section>
             </article>
 
             <article>
@@ -103,8 +132,11 @@
     </main>
 
     <footer>
+        <!--Lijn 1-->
+        <hr>
         <section>
             <article>
+                
                 <h3><span>Lost and found</span></h3>
     
                     <ul>
@@ -116,10 +148,10 @@
                         <li>Werken bij Heineken</li>
                         <li>Contact</li>
                         <li>Supplier portal</li>
-                        <li></li>
                     </ul> 
             </article>
-
+            <!--Lijn 2-->
+            <hr class="lijn2">
             <article>
                 <h3><span>Stay refreshed</span></h3>
                 <ul>
@@ -128,15 +160,10 @@
                 <section class="pijltje">
                     <a href="#"><span>&rarr;</span>Subscribe</a>
                 </section>
-                
-            </article>
-
-                    
+                <img src="./images/illustratie.png" alt="illustratie heineken blikje">
+            </article>    
         </section>
-        
-        
     </footer>
-
-    
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -42,7 +42,7 @@ hier je focus (kies uit responsive óf surface plane)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 <p>Onze merken</p>
-<img src="onzemerken.png" width="375px" alt="omschrijving van de pagina">
+<img src="/images/onzemerken.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 <p>Ons bedrijf</p>
@@ -66,8 +66,7 @@ hier je focus (kies uit responsive óf surface plane)
 ### dynamisch deel (bijv menu): 
 <img src="breakdown.menu.png" width="375px" alt="breakdown menu">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -103,7 +102,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
+- Article heading is h3
 - punt 2
 - nog een punt
 - ...
@@ -120,7 +119,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat wel goed deze week. Mijn HTML heb ik af en ik ben verder gaan werken aan mijn CSS. Ik ben al best wel ver met mijn CSS. Ik moet alleen nog 
+de moeilijke dingen doen. Ik ben nog niet begonnen met mijn javascript. 
 
 
 ### Agenda voor meeting
@@ -136,10 +136,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Span gebruiken om in CSS hoofdletters te maken.
+- Begin met je javascript
+- 
+- 
 
 </details>
 
@@ -155,28 +155,22 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Is het tabbaar?
+Bij de eerste opdracht moesten we door onze site tabben. De linkjes pakte de computer goed. Het lukte me niet om
+de teksten ook mee te krijgen tijdens het tabben.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Hoe goed leesbaar? 
+Bij de tweede opdracht moest ik doormiddel van verschillende brillen door mijn site heen. De eerste bril zorgde ervoor dat 
+ik mijn kleuren anders ging zien. Met de bril op kon ik alles nog goed lezen. Met de andere brillen kon ik ook gewoon goed door 
+mijn website.
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Daarna kreeg ik een band om mijn arm waardoor mijn arm helemaal ging trillen. Het was niet heel moeilijk om door mijn site te gaan alleen ik realiseerde
+met wel dat mijn buttons misschien wat groter moeten. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -190,7 +184,8 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik loop tot nu toe best wel goed op schema. Ik loop een beetje achter met de CSS scrhijven en ik ben nog steeds niet begonnen aan de javascript. Maar tot nu toe 
+ziet er site er wel al best wel hetzelfde uit als die van Heineken.
 
 
 ### Agenda voor meeting
@@ -206,10 +201,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Echt verder gaan werken
+- 
 
 </details>
 
@@ -223,11 +216,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben eindelijk begonnen aan mijn javascript en ik was ook nog vergeten dat ik iets moest bedenken voor Surface. Doormiddel van hulp door Sam lukte het me uiteindelijk om 
+een goede hamburg menu te maken. Daarnaast heb ik gewerkt aan mijn dark/light mode. Ik ben best wel trots op mijn eindproduct. Het kan altijd nog wel wat beter maar ik heb weer
+veel geleerd deze paar werken. Wat beter kon gaan is dat ik de dingen die ik moeilijk vond niet zo moest uitstellen. Hierdoor kwam ik in tijdnood op het eind.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+<img src="onsbedrijf.eindfoto2.png" width="375px" alt="eindfoto ons bedrijf">
+<img src="menu.eindfoto2.png" width="375px" alt="eindfoto menu">
+<img src="onzemerken.eindfoto.png" width="375px" alt="eindfoto menu">
 
 </details>
 
@@ -242,8 +238,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. Bron 1: https://www.codecenter.nl/tryit/html/pijlen/8594 (Codecenter.nl. Code center). De code van mijn pijltje heb ik uit deze bron gehaald.
+2. bron 2: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp (w3school, How TO - Toggle Dark Mode). Ik heb naar w3s uitleg gekeken om goed te begrijpen hoe ik een dark optie kan maken.
 3. ...
 
 </details>

@@ -4,7 +4,6 @@ body {
     background: white;
 }
 
-
 h1 {
     font-size: 40px;
     font-family: "Playfair_Display";
@@ -18,20 +17,17 @@ h1 {
     position: relative;
 }
 
-
-
 h2 {
     font-family: "Playfair_Display";
     font-weight: 500;
     font-size: 1.5em;
-    margin: .8em 0em 0em .8em;
+    margin: 5% 0% 0% 5%;
 }
-
 
 p {
     line-height: 2em;
     color: #666666;
-    margin: 5% 5% 5% 5% ;
+    margin: 3% 5% 0% 5% ;
     font-size: .9em;
     font-weight: normal; 
     font-family: "Outfit";
@@ -41,10 +37,8 @@ a {
     color: #205527;
     font-size: 1em;
     font-weight: 600;
-    padding-bottom:1em;
     text-decoration: none; 
     font-family: "Outfit";  
-    margin-left: .75em;
 }
 
 img {
@@ -56,25 +50,62 @@ header img{
     margin: 1.5em;
 }
 
-.bedrijf section:nth-of-type(1) img{
+/*Hoofd foto*/
+.bedrijf section:nth-of-type(1) > img{
     height: 18em;
+    margin-top: 5em;
     
 }
 
+/*De groene letter*/
+.bedrijf main > section:nth-of-type(1) p:nth-of-type(1)::first-letter {
+    font-size:3.5em;
+    font-family:"HeinekenCurve";
+    font-weight:600;
+    display:inline-block;
+    margin:25px 15px 0 0;
+    float:left;
+    color:#7ab800;
+}
+
+/*Eerste tekst die wat groter is*/
+.bedrijf main > section:nth-of-type(1) p:nth-of-type(1) {
+    font-size:1.4em;
+    line-height:1.8em;
+    color:#666666;
+    margin-bottom:30px;
+}
+
+/*tekst bovening wat groter*/
+.bedrijf main > section:nth-of-type(1) p:nth-of-type(2){
+    font-size: 1.1em;
+    padding-bottom: 1em;
+}
+
+/*tekst bovening wat groter*/
+.bedrijf main > section:nth-of-type(1) p:nth-of-type(3){
+    font-size: 1.1em;
+    padding-bottom: 3em;
+}
+
+
+
+
+
+/*3de en 4de foto van bedrijf pagina. Deze foto's moeten iets meer van de kant af.*/
 .bedrijf section:nth-of-type(3) img {
-    width: 90%;
+    margin: auto;
     padding: 1em 1em 1em 1em;
-    
+    width: 90%;  
 }
 
 
 
-.bedrijf section:nth-of-type(3) article {
-    display: flex;
-    flex-direction: column;
-}
 
-/*De tekst op het groene gedeelte*/
+
+
+
+/*DE TEKST OP HET GROENE GEDEELTE*/
 
 .bedrijf section:nth-of-type(4) article {
     background-color: #205527;
@@ -94,111 +125,133 @@ header img{
 
 .bedrijf section:nth-of-type(4) article a {
     color: white;
-    margin: 2em;
     padding-bottom: 1em;
 }
 
 
 
+/*Foto oude gebouw*/
 .bedrijf section:nth-of-type(5) img {
     margin: 2em 0em 0em 0em;
 }
 
 
 
-.bedrijf main section:nth-of-type(1) p:nth-of-type(2){
-    font-size: 1.1em;
-}
-
-.bedrijf main section:nth-of-type(1) p:nth-of-type(3){
-    font-size: 1.1em;
-}
-
-.bedrijf main section:nth-of-type(1) p:nth-of-type(1) {
-font-size:1.4em;
-line-height:1.8em;
-color:#666666;
-margin-bottom:30px;
-}
-
-.bedrijf main section:nth-of-type(1) p:nth-of-type(1)::first-letter {
-font-size:3.5em;
-font-family:"HeinekenCurve";
-font-weight:600;
-display:inline-block;
-margin:25px 15px 0 0;
-float:left;
-color:#7ab800;
-}
-
+/*Padding van link*/
 .bedrijf section:nth-of-type(5) a {
     padding: 2em 5em 5em 0em;
 }
 
-/* 
-
-.bedrijf main section:nth-of-type(1) p:nth-of-type(1)::first-letter{
-    color:#7ab800;
-    font-size: 3.5em;
-    font-family: "HeinekenCurve";
-    font-weight: 600;
-    float:left;
-    display:inline-block;
-    margin-bottom:
-} */
 
 
-
-.merken section:nth-of-type(1) img{
-    height: 18em;
+/*Cijfers bovenin*/
+.bedrijf section:nth-of-type(2) article:nth-of-type(1)  {
+    display: flex;
 }
 
-.merken section:nth-of-type(2) article:nth-of-type(1) section {
-    background-color: #205527;
-    padding: .5em 1em 2em 0em;
+.bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) p:nth-of-type(1) {
+    color: #205527;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: -1.3em;
     
 }
 
-.merken section:nth-of-type(2) article h2 {
-    color: white;
-    margin: 1.25em;
+.bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) p:nth-of-type(2) {
+    position: relative;
+    right: -2.4em;
+    top: -1em;
+    white-space: nowrap;
 }
 
-.merken section:nth-of-type(2) article p {
-    color: white;
+.bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(2) p:nth-of-type(1) {
+    color: #205527;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: -3em;
+
+}
+
+.bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(2) p:nth-of-type(2) {
+    position: relative;
+    right: -4.5em;
+    top: -1em;
+    white-space: nowrap;
+}
+
+
+/*Cijfers onderin*/
+.bedrijf section:nth-of-type(2) article:nth-of-type(2)  {
+    display: flex;
+}
+
+.bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(1) {
+    color: #205527;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: -2em;
+}
+
+.bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(2) {
+    position: relative;
+    right: -3.2em;
+    top: -1em;
+    white-space: nowrap;
+   
+}
+
+.bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(2) p:nth-of-type(1) {
+    color: #205527;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: -4em;
+   
+}
+
+.bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(2) p:nth-of-type(2) {
+    position: relative;
+    right: -9em;
+    top: -.8em;
+    white-space: nowrap;
+}
+
+
+/*Strepen in de footer*/
+.bedrijf hr{
+    position: relative;
+    bottom: -.7em; 
+ }
+ 
+.bedrijf section hr.lijn2 {
+     position: relative;
+     top: -.4em;
+     width: 90%;
+ }
+
+
+/*Padding boven heineken flesje foto*/
+.bedrijf section:nth-of-type(2)  article:nth-of-type(3)  img{
+    padding-top: 3em;
+}
+
+
+
+
+
+
+/*Hoofdfoto*/
+.merken section:nth-of-type(1) > img{
+    height: 16em;
+    margin: auto;
+    margin-top: 5.2em;
     
 }
 
-.merken section:nth-of-type(2) article a {
-    color: white;
-    
-    padding-bottom: 1em;
-}
-
-.merken section:nth-of-type(2) article:nth-of-type(2) section {
-    background-color: #205527;
-    padding: .5em 1em 2em 0em;
-    margin: 10% 0% 0% 0%;
-}
-
-.merken section:nth-of-type(2) article:nth-of-type(2) img{
-    margin: 0% 0% 20% 0%;
-}
-
-.merken main > section:nth-of-type(1) p:nth-of-type(1){
-    font-size:1.4em;
-    line-height:1.8em;
-    color:#666666;
-    margin-bottom:30px;
-
-}
-
-.merken section:nth-of-type(2) article p {
-    margin: 2em;
-}
-
-
-
+/*Groene letter*/
 .merken main > section:nth-of-type(1) p:nth-of-type(1)::first-letter {
     font-size:3.5em;
     font-family:"HeinekenCurve";
@@ -209,14 +262,79 @@ color:#7ab800;
     color:#7ab800;
 }
 
+.merken main > section:nth-of-type(1) p:nth-of-type(1){
+    font-size:1.4em;
+    line-height:1.8em;
+    color:#666666;
+    margin-bottom:30px;
 
+}
+
+/*Eerste groene stukje*/
+.merken section:nth-of-type(2) article:nth-of-type(1) section {
+    background-color: #205527;
+    padding: .5em 1em 2em 0em;
+    
+}
+
+.merken section:nth-of-type(2) article h2 {
+    color: white;
+    margin: 1.6em;
+}
+
+.merken section:nth-of-type(2) article p {
+    color: white;
+}
+
+.merken section:nth-of-type(2) article a {
+    color: white;
+    padding-bottom: 1em;
+    margin: 1.5em;
+}
+
+
+/*Tweede groene stukje*/
+.merken section:nth-of-type(2) article:nth-of-type(2) section {
+    background-color: #205527;
+    padding: .5em 0em 2em 0em;
+    margin: 10% 0% 0% 0%;
+}
+
+.merken section:nth-of-type(2) article:nth-of-type(2) img{
+    margin: 0% 0% 20% 0%;
+}
+
+
+
+.merken section:nth-of-type(2) article p {
+    margin: 2.5em;
+}
+
+
+/*Lijntjes in de footer bij merken*/
+.merken hr{
+    position: relative;
+    bottom: -.7em; 
+ }
+ 
+.merken section hr.lijn2 {
+     position: relative;
+     top: -.4em;
+     width: 90%;
+ }
+
+
+
+
+
+/*FOOTER*/
 footer article {
     margin:5% 5% 5% 5%;
 }
 
 footer section {
     background-color:#f9f9f9;
-    padding: 1em 1em 1em 0em;
+    padding: 1em 0em 1em 0em;
 }
 
 footer h3{
@@ -238,6 +356,19 @@ footer li {
 
 }
 
+footer ul li:nth-of-type(4){
+    padding-bottom: 3em;
+}
+
+/*Illustratie in footer*/
+footer section article:nth-of-type(2) > img {
+    position: relative;
+    width: 40%;
+    right: -12em;
+    top: -11em;
+}
+
+
 
 /*De code voor de pijltjes*/
 span {
@@ -252,7 +383,8 @@ section.pijltje {
 
 section.pijltje > a {
     position: static;
-    padding: 0;
+    padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 section.pijltje span {
@@ -264,8 +396,19 @@ section.pijltje span {
 section.pijltje a:hover span,
 section.pijltje a:focus span {
     transform:translateX(.5em);
-  }
+}
 
+article.pijltje > a {
+    position: static;
+    padding-bottom: 1em;
+   
+}
+
+article.pijltje span {
+    display: inline-block;
+    margin-right: .5em;
+    transition: 1s;
+}
 
 a > span {
     color: #7AB800;
@@ -273,3 +416,315 @@ a > span {
 }
 
 
+
+
+
+
+/*NAVIGATIE ONS BEDRIJF*/
+.bedrijf header section{
+    display: flex;
+}
+
+.bedrijf header > section {
+    border: 1px solid #E4E4E4;
+}
+
+
+.bedrijf header > section > img:nth-of-type(1) {
+    width: 40%;
+    height: 0%;
+    position: relative;
+    top: 1em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    
+}
+
+.bedrijf header > section > img:nth-of-type(2){
+    width: 28%;
+    height: 0%;
+    position: relative;
+    right: -3.9em;
+    padding: 0;
+    margin-bottom:.5em;
+    margin-top: .5em;
+    margin: 0;
+}
+
+.bedrijf header section{
+    position: fixed ;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.bedrijf header > nav > img{
+    width: 20%;
+    position: relative;
+    left: 17em;
+}
+
+
+.bedrijf header nav {
+background-color: white;
+position: fixed;
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+transform:translateX(100%);
+transition: .5s;
+z-index: 1;
+}
+
+.bedrijf nav.toonmenu {
+    transform:translateX(0%)
+}
+
+.bedrijf > header > nav  li a {
+    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: "Playfair_Display";
+   
+   
+}
+
+.bedrijf > header  nav  li {
+    display: flex;
+}
+
+
+
+
+/*NAVIGATIE ONZE MERKEN*/
+.merken header section{
+    display: flex;
+}
+
+.merken header > section {
+    border: 1px solid #E4E4E4;
+}
+
+
+.merken header > section > img:nth-of-type(1) {
+    width: 40%;
+    height: 0%;
+    position: relative;
+    right: 3em;
+    top: 1em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    
+    
+}
+
+.merken header > section > img:nth-of-type(2){
+    width: 28%;
+    height: 0%;
+    position: relative;
+    padding: 0;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    margin: 0;
+}
+
+.merken header > nav >img:nth-of-type(2) {
+    position: relative;
+    z-index: 1;
+  
+ 
+}
+
+
+.merken header > nav > img{
+    width: 20%;
+    position: relative;
+    left: 17em;
+}
+
+
+.merken header nav {
+background-color: white;
+position: fixed;
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+transform:translateX(100%);
+transition: .5s;
+/*Om het naar voren te brengen*/
+z-index: 1;
+}
+
+.merken nav.toonmenu {
+    transform:translateX(0%)
+}
+
+.merken > header > nav  li a {
+    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: "Playfair_Display";
+   
+   
+}
+
+.merken > header  nav  li {
+    display: flex;
+}
+
+
+.merken header section{
+    position: fixed ;
+    background-color: white;
+    z-index: 1; 
+}
+
+
+/*BUTTON VOOR DARK-MODE*/
+button {
+    color: white;
+    background-color: #205527 ;
+    padding: .5em 1.5em ;
+    position: relative;
+    left: 2em;
+    font-size: 1.2em;
+    font-family: "Outfit";
+}
+
+
+ /*DARK-MODE*/ 
+.bedrijf.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.bedrijf.dark-mode h1 {
+    background-color: black;
+    color: white;
+}
+
+.bedrijf.dark-mode p {
+    background-color: black;
+    color: white;
+}
+
+.bedrijf.dark-mode a {
+    background-color: black;
+    color: white;
+}
+
+.bedrijf.dark-mode footer {
+    background-color: black;
+    color: white;
+}
+
+
+
+.bedrijf.dark-mode section:nth-of-type(1) article p:nth-of-type(1) {
+    background-color: black;
+    color: white;
+}
+
+.bedrijf.dark-mode section:nth-of-type(4) article:nth-of-type(1) p {
+    background-color: white;
+    color: black;
+}
+
+.bedrijf.dark-mode section:nth-of-type(4) article:nth-of-type(1) a {
+    background-color: white;
+    color: #205527 ;
+}
+
+.bedrijf.dark-mode section:nth-of-type(4) article:nth-of-type(1) h2 {
+    background-color: white;
+    color:black;
+}
+
+.bedrijf.dark-mode header nav a {
+    background-color: white;
+    color: #205527;  
+}
+
+.bedrijf.dark-mode header  {
+    background-color: white; 
+}
+
+
+.bedrijf.dark-mode section:nth-of-type(4) article{
+    background-color: white;
+}
+
+.bedrijf.dark-mode footer a {
+    background-color:#f9f9f9;
+    color: #205527;
+}
+
+
+
+
+/*Bron:https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+Dit heeft me geholpen om dark-mode te begrijpen.*/
+.merken.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.merken.dark-mode h1 {
+    background-color: black;
+    color: white;
+}
+
+.merken.dark-mode section:nth-of-type(1) p:nth-of-type(1) {
+    background-color: black;
+    color: white;
+}
+
+.merken.dark-mode footer a {
+    background-color:#f9f9f9;
+    color: #205527;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) {
+    background-color: white;
+}
+
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) h2 {
+    background-color:white;
+    color: black;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) p {
+    background-color: white;
+    color: black;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) a{
+    background-color: white;
+    color: #205527;
+}
+
+
+
+
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) {
+    background-color: white;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) h2 {
+    background-color:white;
+    color: black;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) p {
+    background-color: white;
+    color: black;
+}
+
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) a{
+    background-color: white;
+    color: #205527;
+}

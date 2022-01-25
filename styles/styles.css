@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: "Playfair_Display";
     font-weight: 525;
     margin: .5em;
@@ -53,7 +53,6 @@ header img{
 /*Hoofd foto*/
 .bedrijf section:nth-of-type(1) > img{
     height: 18em;
-    margin-top: 5em;
     
 }
 
@@ -73,7 +72,7 @@ header img{
     font-size:1.4em;
     line-height:1.8em;
     color:#666666;
-    margin-bottom:30px;
+    margin-bottom:1.875em;
 }
 
 /*tekst bovening wat groter*/
@@ -94,9 +93,7 @@ header img{
 
 /*3de en 4de foto van bedrijf pagina. Deze foto's moeten iets meer van de kant af.*/
 .bedrijf section:nth-of-type(3) img {
-    margin: auto;
     padding: 1em 1em 1em 1em;
-    width: 90%;  
 }
 
 
@@ -147,6 +144,7 @@ header img{
 /*Cijfers bovenin*/
 .bedrijf section:nth-of-type(2) article:nth-of-type(1)  {
     display: flex;
+    justify-content: center;
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) p:nth-of-type(1) {
@@ -185,6 +183,7 @@ header img{
 /*Cijfers onderin*/
 .bedrijf section:nth-of-type(2) article:nth-of-type(2)  {
     display: flex;
+    justify-content: center;
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(1) {
@@ -248,6 +247,7 @@ header img{
     height: 16em;
     margin: auto;
     margin-top: 5.2em;
+    object-fit: cover;
     
 }
 
@@ -266,7 +266,7 @@ header img{
     font-size:1.4em;
     line-height:1.8em;
     color:#666666;
-    margin-bottom:30px;
+    margin-bottom:1.875em;
 
 }
 
@@ -423,10 +423,12 @@ a > span {
 /*NAVIGATIE ONS BEDRIJF*/
 .bedrijf header section{
     display: flex;
+    
 }
 
 .bedrijf header > section {
     border: 1px solid #E4E4E4;
+    
 }
 
 
@@ -452,7 +454,7 @@ a > span {
 }
 
 .bedrijf header section{
-    position: fixed ;
+   
     background-color: white;
     z-index: 1;
 }
@@ -468,10 +470,10 @@ a > span {
 .bedrijf header nav {
 background-color: white;
 position: fixed;
-top: 0px;
-right: 0px;
-left: 0px;
-bottom: 0px;
+top: 0em;
+right: 0em;
+left: 0em;
+bottom: 0em;
 transform:translateX(100%);
 transition: .5s;
 z-index: 1;
@@ -547,10 +549,10 @@ z-index: 1;
 .merken header nav {
 background-color: white;
 position: fixed;
-top: 0px;
-right: 0px;
-left: 0px;
-bottom: 0px;
+top: 0em;
+right: 0em;
+left: 0em;
+bottom: 0em;
 transform:translateX(100%);
 transition: .5s;
 /*Om het naar voren te brengen*/
@@ -576,7 +578,6 @@ z-index: 1;
 
 
 .merken header section{
-    position: fixed ;
     background-color: white;
     z-index: 1; 
 }

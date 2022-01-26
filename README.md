@@ -38,7 +38,7 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-<a href="https://www.heinekennederland.nl">Heineken Nederland</a>
+<a href="heinekennederland.png">Heineken Nederland</a>
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 <p>Onze merken</p>
@@ -58,7 +58,7 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="breakdown.bedrijf.header.png" width="375px" alt="breakdown bedrijf 1">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/breakdown.bedrijf.header.png" width="375px" alt="breakdown bedrijf 1">
 <img src="breakdown.bedrijf.footer.png" width="375px" alt="breakdown bedrijf 2">
 <img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 1">
 <img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 2">

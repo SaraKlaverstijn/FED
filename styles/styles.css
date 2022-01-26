@@ -17,7 +17,7 @@ h1 {
     position: relative;
 }
 
-h2 {
+h3 {
     font-family: "Playfair_Display";
     font-weight: 500;
     font-size: 1.5em;
@@ -109,7 +109,7 @@ header img{
     padding: .5em 1em 2em 0em;
 }
 
-.bedrijf section:nth-of-type(4) article h2 {
+.bedrijf section:nth-of-type(4) article h3 {
     color: white;
     margin: 1.25em;
 }
@@ -144,21 +144,19 @@ header img{
 /*Cijfers bovenin*/
 .bedrijf section:nth-of-type(2) article:nth-of-type(1)  {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) p:nth-of-type(1) {
     color: #205527;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    right: -1.3em;
+    
     
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(1) p:nth-of-type(2) {
-    position: relative;
-    right: -2.4em;
+    
     top: -1em;
     white-space: nowrap;
 }
@@ -167,14 +165,12 @@ header img{
     color: #205527;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    right: -3em;
+    
 
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(1) section:nth-of-type(2) p:nth-of-type(2) {
-    position: relative;
-    right: -4.5em;
+  
     top: -1em;
     white-space: nowrap;
 }
@@ -183,20 +179,18 @@ header img{
 /*Cijfers onderin*/
 .bedrijf section:nth-of-type(2) article:nth-of-type(2)  {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(1) {
     color: #205527;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    right: -2em;
+    
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(2) {
-    position: relative;
-    right: -3.2em;
+    
     top: -1em;
     white-space: nowrap;
    
@@ -206,14 +200,12 @@ header img{
     color: #205527;
     font-size: 2em;
     font-weight: bold;
-    position: relative;
-    right: -4em;
+   
    
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(2) p:nth-of-type(2) {
-    position: relative;
-    right: -9em;
+    
     top: -.8em;
     white-space: nowrap;
 }
@@ -245,7 +237,6 @@ header img{
 /*Hoofdfoto*/
 .merken section:nth-of-type(1) > img{
     height: 16em;
-    margin: auto;
     margin-top: 5.2em;
     object-fit: cover;
     
@@ -277,7 +268,7 @@ header img{
     
 }
 
-.merken section:nth-of-type(2) article h2 {
+.merken section:nth-of-type(2) article h3 {
     color: white;
     margin: 1.6em;
 }
@@ -337,7 +328,7 @@ footer section {
     padding: 1em 0em 1em 0em;
 }
 
-footer h3{
+footer h4{
     font-family: "Outfit";
     font-weight: normal;
     font-size: .9em;
@@ -423,34 +414,33 @@ a > span {
 /*NAVIGATIE ONS BEDRIJF*/
 .bedrijf header section{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    max-height: 5em;
     
 }
 
 .bedrijf header > section {
     border: 1px solid #E4E4E4;
-    
 }
 
 
 .bedrijf header > section > img:nth-of-type(1) {
-    width: 40%;
-    height: 0%;
-    position: relative;
-    top: 1em;
+    width: 10em;
     margin-bottom: .5em;
     margin-top: .5em;
+
     
 }
 
 .bedrijf header > section > img:nth-of-type(2){
-    width: 28%;
+    width: 7em;
     height: 0%;
-    position: relative;
-    right: -3.9em;
     padding: 0;
     margin-bottom:.5em;
     margin-top: .5em;
-    margin: 0;
+    
 }
 
 .bedrijf header section{
@@ -463,7 +453,7 @@ a > span {
 .bedrijf header > nav > img{
     width: 20%;
     position: relative;
-    left: 17em;
+    left: 20em;
 }
 
 
@@ -502,6 +492,9 @@ z-index: 1;
 /*NAVIGATIE ONZE MERKEN*/
 .merken header section{
     display: flex;
+    max-height: 5em;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .merken header > section {
@@ -510,11 +503,8 @@ z-index: 1;
 
 
 .merken header > section > img:nth-of-type(1) {
-    width: 40%;
+    width: 10em;
     height: 0%;
-    position: relative;
-    right: 3em;
-    top: 1em;
     margin-bottom: .5em;
     margin-top: .5em;
     
@@ -522,9 +512,8 @@ z-index: 1;
 }
 
 .merken header > section > img:nth-of-type(2){
-    width: 28%;
+    width: 6em;
     height: 0%;
-    position: relative;
     padding: 0;
     margin-bottom: .5em;
     margin-top: .5em;
@@ -532,7 +521,6 @@ z-index: 1;
 }
 
 .merken header > nav >img:nth-of-type(2) {
-    position: relative;
     z-index: 1;
   
  
@@ -578,6 +566,7 @@ z-index: 1;
 
 
 .merken header section{
+
     background-color: white;
     z-index: 1; 
 }
@@ -638,7 +627,7 @@ button {
     color: #205527 ;
 }
 
-.bedrijf.dark-mode section:nth-of-type(4) article:nth-of-type(1) h2 {
+.bedrijf.dark-mode section:nth-of-type(4) article:nth-of-type(1) h3 {
     background-color: white;
     color:black;
 }
@@ -692,7 +681,7 @@ Dit heeft me geholpen om dark-mode te begrijpen.*/
 }
 
 
-.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) h2 {
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(1) h3 {
     background-color:white;
     color: black;
 }
@@ -715,7 +704,7 @@ Dit heeft me geholpen om dark-mode te begrijpen.*/
     background-color: white;
 }
 
-.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) h2 {
+.merken.dark-mode  section:nth-of-type(2) article:nth-of-type(2) h3 {
     background-color:white;
     color: black;
 }

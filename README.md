@@ -38,15 +38,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-<a href="heinekennederland.png">Heineken Nederland</a>
+<a href="https://github.com/SaraKlaverstijn/FED/blob/main/images/heinekennederland.png?raw=true">Heineken Nederland</a>
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 <p>Onze merken</p>
-<img src="/images/onzemerken.png" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/onzemerken.png?raw=true" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 <p>Ons bedrijf</p>
-<img src="onsbedrijf.png" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/onsbedrijf.png?raw=true" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -58,13 +58,13 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="https://github.com/SaraKlaverstijn/FED/blob/main/breakdown.bedrijf.header.png" width="375px" alt="breakdown bedrijf 1">
-<img src="breakdown.bedrijf.footer.png" width="375px" alt="breakdown bedrijf 2">
-<img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 1">
-<img src="breakdown.merken.header.png" width="375px" alt="breakdown merken 2">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/breakdown.bedrijf.header.png?raw=true" width="375px" alt="breakdown bedrijf 1">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/breakdown.bedrijf.footer.png?raw=true" width="375px" alt="breakdown bedrijf 2">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/breakdown.merken.header.png?raw=true" width="375px" alt="breakdown merken 1">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/breakdown.merken.footer.png?raw=true" width="375px" alt="breakdown merken 2">
 
 ### dynamisch deel (bijv menu): 
-<img src="breakdown.menu.png" width="375px" alt="breakdown menu">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/breakdown.menu.png?raw=true" width="375px" alt="breakdown menu">
 
 
 
@@ -83,10 +83,10 @@ hier je focus (kies uit responsive óf surface plane)
 Wat goed gaat: ik lig goed op schema. Alle html heb ik geschreven en ik ben begonnen met de css. 
 Waar ik moeite mee heb: Een paar foto's willen niet laden op mijn pagina. Daarnaast heb ik ook veel moeite met de juiste grootte en de goede lettertype 
 te vinden voor de website.
-<img src="heinekennederland.png" width="375px" alt="hele scherm foto">
-<img src="html.index.png" width="375px" alt="html index">
-<img src="html.merken.png" width="375px" alt="html merken">
-<img src="css.png" width="375px" alt="css">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/heinekennederland.png?raw=true" width="375px" alt="hele scherm foto">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/html.index.png?raw=true" width="375px" alt="html index">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/html.merken.png?raw=true" width="375px" alt="html merken">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/css.png?raw=true" width="375px" alt="css">
 
 
 ### Agenda voor meeting
@@ -221,9 +221,9 @@ een goede hamburg menu te maken. Daarnaast heb ik gewerkt aan mijn dark/light mo
 veel geleerd deze paar werken. Wat beter kon gaan is dat ik de dingen die ik moeilijk vond niet zo moest uitstellen. Hierdoor kwam ik in tijdnood op het eind.
 
 ### Screenshot(s)
-<img src="onsbedrijf.eindfoto2.png" width="375px" alt="eindfoto ons bedrijf">
-<img src="menu.eindfoto2.png" width="375px" alt="eindfoto menu">
-<img src="onzemerken.eindfoto.png" width="375px" alt="eindfoto menu">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/onsbedrijf.eindfoto2.png?raw=true" width="375px" alt="eindfoto ons bedrijf">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/menu.eindfoto2.png?raw=true" width="375px" alt="eindfoto menu">
+<img src="https://github.com/SaraKlaverstijn/FED/blob/main/images/onzemerken.eindfoto.png?raw=true" width="375px" alt="eindfoto menu">
 
 </details>
 

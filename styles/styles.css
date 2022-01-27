@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Regular.woff2') format('woff2'),
+        url('Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Bold.woff2') format('woff2'),
+        url('Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair_Display';
+    src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +42,7 @@ body {
 
 h1 {
     font-size: 2.5em;
-    font-family: "Playfair_Display";
+    font-family: "Playfair Display";
     font-weight: 525;
     margin: .5em;
     color: #205527;
@@ -18,7 +54,7 @@ h1 {
 }
 
 h3 {
-    font-family: "Playfair_Display";
+    font-family: "Playfair Display";
     font-weight: 500;
     font-size: 1.5em;
     margin: 5% 0% 0% 5%;
@@ -43,16 +79,19 @@ a {
 
 img {
     width: 100%;
+   
 }
 
 header img{
-    width: 50%;
+    width: 6em;
     margin: 1.5em;
+   
 }
 
 /*Hoofd foto*/
 .bedrijf section:nth-of-type(1) > img{
     height: 18em;
+    
     
 }
 
@@ -93,7 +132,11 @@ header img{
 
 /*3de en 4de foto van bedrijf pagina. Deze foto's moeten iets meer van de kant af.*/
 .bedrijf section:nth-of-type(3) img {
-    padding: 1em 1em 1em 1em;
+    display: flex;
+    margin-left: 1em;
+    margin-right: -1em;
+    width: 95%;
+    height: auto;
 }
 
 
@@ -180,6 +223,7 @@ header img{
 .bedrijf section:nth-of-type(2) article:nth-of-type(2)  {
     display: flex;
     justify-content: space-around;
+    margin-right: 3em;
 }
 
 .bedrijf section:nth-of-type(2) article:nth-of-type(2) section:nth-of-type(1) p:nth-of-type(1) {
@@ -359,6 +403,11 @@ footer section article:nth-of-type(2) > img {
     top: -11em;
 }
 
+footer section:nth-of-type(1) article:nth-of-type(1) ul li a {
+    color: black;
+    font-weight: 300;
+}
+
 
 
 /*De code voor de pijltjes*/
@@ -477,7 +526,7 @@ z-index: 1;
     line-height: 2em;
     font-size: 1.5em;
     font-weight: normal;
-    font-family: "Playfair_Display";
+    font-family: "Playfair Display";
    
    
 }
@@ -555,7 +604,7 @@ z-index: 1;
     line-height: 2em;
     font-size: 1.5em;
     font-weight: normal;
-    font-family: "Playfair_Display";
+    font-family: "Playfair Display";
    
    
 }
